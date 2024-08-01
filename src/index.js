@@ -16,7 +16,7 @@ async function startBot() {
 
         const TIMEOUT = 50 * 60 * 1000;; // 50 minutes
         // YOUR_TELEGRAM_BOT_TOKEN
-        const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN; 7343014372:AAGqIjOfbXR7x0x2En5aFFUdIZl5sII1-2w
+        const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
         // Load welcome messages from JSON file
         const welcomeMessages = JSON.parse(fs.readFileSync(path.join(__dirname, '../database', 'welcomeMessages.json'), 'utf8') || {});
 
